@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tieto- ja viestintätekniikan perustutkinto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style1.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="sidebar">
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a href="tutkinnon_rakenne.html">Tutkinnon rakenne</a></li>
+                <li><a href="tutkinnonosat.html">Tutkinnonosat</a></li>
+                <li><a href="kriteerit.html">Kriteerit</a></li>
+                <li><a href="arviointi.html">Arviointi</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="bodycontent">
+        <h1>Osaamisen arviointi</h1>
+
+        <p>Ammatilliset tutkinnon osat arvioidaan asteikolla 1–5 tutkinnon osan ammattitaitovaatimusten ja arviointikriteerien mukaisesti. Opiskelijan osaaminen arvioidaan tutkinnon osittain. Tutkinnon osan arvosana määräytyy sen mukaan, mille arviointiasteikon tasolle opiskelijan osaaminen kokonaisuutena parhaiten sijoittuu.</p>
+        <p>Yhteisten tutkinnon osien osa-alueet ja yritystoiminnan suunnittelu, työpaikkaohjaajaksi valmentautuminen, yrityksessä toimiminen ja huippuosaajana toimiminen tutkinnon osat arvioidaan asteikolla 1–5 tutkinnon osan ammattitaitovaatimusten, osaamistavoitteiden ja arviointikriteerien mukaisesti. Arvosanat 2 ja 4 määräytyvät seuraavasti:</p>
+        <p>2 = Opiskelijan osaamisen taso ylittää selkeästi 1-tason, mutta ei yllä 3-tasolle.</p>
+        <p>4 = Opiskelijan osaamisen taso ylittää selkeästi 3-tason, mutta ei yllä 5-tasolle.</p>
+    </div>
+
+
+</body>
+
+</html>

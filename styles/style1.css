@@ -1,0 +1,111 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+body {
+    background: #ccc;
+    font-size: 1em;
+    color: #000;
+    line-height: 1.6;
+    margin: 0;
+}
+
+a {
+    color: #000;
+    border-bottom: 2px solid #45a338;
+    transition: border .3s ease-in-out;
+}
+
+a:hover {
+    border-bottom: 2px solid #000;
+}
+
+td {
+    vertical-align: top;
+}
+
+.wrap .sidebar {
+    background: #303030;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 250px;
+}
+
+.wrap .sidebar ul li a {
+    color: #45a338;
+    width: 100%;
+    height: auto;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-bottom: none;
+    transition: color .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+}
+
+.wrap .sidebar ul li:hover a {
+    color: #303030;
+}
+
+.wrap .sidebar ul {
+    padding: 0;
+    margin: 0;
+}
+
+.wrap .sidebar ul li {
+    width: 100%;
+    font-size: 17px;
+    background: transparent;
+    list-style: none;
+    padding: 10px;
+    transition: background-color .3s ease-in-out;
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+}
+
+.wrap .sidebar ul li:hover {
+    background: #45a338;
+}
+
+.bodycontent {
+    margin: 40px 40px 0 300px;
+    max-width: 100%;
+}
+
+.kriteerilista ul{
+    margin-bottom: 10px;
+}
+
+/* responsive */
+@media screen and (max-width: 650px) {
+    .wrap .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+    .wrap .sidebar ul li {
+        display: inline-block;
+        width: auto;
+        margin: 0;
+    }
+
+    .wrap .sidebar ul {
+        font-size: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .bodycontent {
+        margin: 15px 15px 0 15px;
+    }
+}
